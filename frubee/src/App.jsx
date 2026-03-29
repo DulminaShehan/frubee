@@ -202,7 +202,7 @@ function Hero() {
           >
             <div className="absolute inset-0 rounded-full blur-3xl opacity-40"
               style={{ background: "radial-gradient(circle, #ff6b35, #c72f7a)" }} />
-            <img src={IMAGES.watermelon} alt="Frubee Watermelon" className="relative w-72 md:w-96 drop-shadow-2xl" />
+            <img src={IMAGES.watermelon} alt="Frubee Watermelon" className="relative w-72 md:w-96 drop-shadow-2xl" style={{ mixBlendMode: "multiply" }} />
           </motion.div>
         </motion.div>
       </div>
